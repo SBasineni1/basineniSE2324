@@ -1,0 +1,80 @@
+/* -----------------Underline Animation CSS -----------------*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /*color: #0087ca;*/
+  }
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #eae6e6;
+    /*transform-origin: bottom right;*/
+    transition: transform 0.35s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /*transform-origin: bottom left;*/
+}
+.Tornado-Logo {
+    color:#0ea5e9;
+}
+.title {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.titleheader {
+    justify-content: right;
+}
+.navbar {
+    background-color: #4f46e5;  
+}
+
+.nb-background-color {
+    color: #0ea5e9;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+}
+.d-inline-block align-text-top w-50 {
+    max-width: 50%;
+    max-height: 50%;
+}
+.nbMenuItem {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer {
+    background-color: #023E8A; 
+}
+.showcase {
+    background-color: #a3a3a3;
+}
+.icon-white{
+    color:#FFFFFF;
+}
+.authors {
+    background-color: #dbd3e7;
+}
+.about-team {
+    background-color: #dbd3e7;
+}
+.about {
+    width: 400px;
+    margin: auto;
+}
+.procedure {
+    background-color: #dbe3e7;
+    padding: 1px;
+}
+.howTo {
+    font-size: 20px;
+}
+/* Underline Animation */
